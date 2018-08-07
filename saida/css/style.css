@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(127, 255, 212);
+}
+h1{
+    margin-top: 3%;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-weight: 100;
+}
+h2{
+    margin-left: 20%;
+    margin-top: 3%;
+    font-family: 'Poiret One', cursive; 
+    font-size: 20px;
+    font-weight: bolder;
+}
+p{
+    font-family: 'Poiret One', cursive;
+    margin-left: 45%;
+    margin-top: 4%;
+    font-weight: bold;
+}
+.status{
+    margin-left: 27%;
+    padding-right: 7%;
+}
+.opcao{
+    width: 320px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.escolha{
+    margin-left: 27%;
+}
+.data{
+    margin-left: 17%;
+}
+.data [type="text"], [type="date"]{
+    text-decoration: none;
+    border: 1px solid rgb(8, 8, 8);
+    width: 200px;
+}
+.containerInferior{
+    padding-left: 20%;
+    max-width: 2500px;
+    width: 80%;
+    height: 200px;
+    background-color: rgba(0, 255, 128, 0.979);
+    border: 5px solid rgb(254, 14, 1);
+    margin: 120px;
+}
+.box1{
+    margin-right: 12px;
+    float: left;
+    max-width: 2500px;
+    width: 10%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.979);
+    border: 1px solid rgb(0, 0, 0);
+}
+.box2{
+    float: left;
+    max-width: 2500px;
+    width: 10%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.979);
+    border: 1px solid rgb(0, 0, 0);
+}
+.box3{
+    float: left;
+    max-width: 2500px;
+    width: 10%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.979);
+    border: 1px solid rgb(0, 0, 0);
+}
+.box4{
+    float: left;
+    max-width: 2500px;
+    width: 10%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.979);
+    border: 1px solid rgb(0, 0, 0);
+}
+.box5{
+    float: left;
+    max-width: 2500px;
+    width: 10%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.979);
+    border: 1px solid rgb(0, 0, 0);
+}
+.box6{
+    float: left;
+    max-width: 2500px;
+    width: 10%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.979);
+    border: 1px solid rgb(0, 0, 0);
+}
+.box7{
+    float: left;
+    max-width: 2500px;
+    width: 10%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.979);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+

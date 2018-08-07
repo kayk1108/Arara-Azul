@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+input[type=text]{
+    margin-bottom: 20px;
+    border: 0.9px  solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    border-bottom: 1px solid #000000;
+    width: 280px;
+    border-radius: 10px 10px 10px;
+}
+
+label{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.container1{
+    max-width: 2889;
+    width: 100%;
+    margin-left: calc(50% - 50px);
+}
+
+.box1, .box2{
+    float: left;
+}
+
+/*<br><br><br><br><br><br><br><br><br>
+    <div class="container1">
+            <div class="box1">
+                <label for="">NOME COMPLETO</label><br>
+                <label for="">CPF</label><br>
+                <label for="">E-MAIL</label><br>
+                <label for="">SENHA</label><br>
+                <label for="">CONFIRMAR SENHA</label></div>
+            <div class="box2">
+                <input type="text"><br>
+                <input type="text"><br>
+                <input type="text"><br>
+                <input type="text"><br>
+                <input type="text"></div>
+        </div>*/

@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  header{
+    width: 100%;
+    height: 38px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(0, 255, 255);
+    position: fixed;
+  }
+  .menuIcone{
+    position: fixed;
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 5px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all .9s ;
+    left: 20px;
+    top: 0px;
+    border: 1px solid rgb(0, 0, 0)
+  }
+  
+  .menuIcone:hover{
+    background-color: rgba(64, 201, 178, 0.9);
+    color: rgb(2, 5, 4);
+  
+  }
+  .chk{
+    position: absolute;
+  }
+  
+  .menu{
+    height: 100%;
+    position: fixed;
+    background-color: rgb(73, 73, 73);
+    top: 0px;
+    overflow: hidden;
+    transition: all .9s;
+  }
+  
+  #principal{
+    width: 200px;
+    left: -300px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  ul{
+    list-style: none;
+  }
+  
+  ul li a{
+    display: block;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: -45px;
+    transition: ease-in-out .9s;
+  }
+  
+  ul li a:hover{
+    background-color: rgb(82, 235, 227);
+  }
+  
+  .voltar{
+    background-color: rgb(73, 73, 73);
+  }
+  
+  .bg{
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    background-color: rgba(110, 110, 110, .4);
+    display: none;
+  }
+  
+  #chk:checked ~ .bg{
+    display: block;
+  
+  }
+  
+  #chk:checked ~ #principal{
+    transform: translateX(300px);
+  }
+  
+  
+  .link{
+    opacity: 0;
+    margin-top: 100px;
+  }
+  
+  #chk:checked ~  nav a.link{
+    opacity: 1;
+    margin-top: 0px;
+    transition: all 1.3s;
+  }
+
+  .imagem{
+    width: 100%;
+    margin-top: 60px;
+  }
+  a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+  }
+  a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  input[type="checkbox"]{
+    margin-left: -50%;
+  }
+  #img1, #img2, #img3, #img4{
+    margin-top: 50px;
+  }
+  

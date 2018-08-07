@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 255, 128);
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
+h1{
+    margin-top: 10%;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-weight: 100;
+}
+.numeroDeID{
+    margin-top: 10%;
+    margin-left: 200px;
+    margin-bottom: -30%;
+    /*margin-right: 13px;
+    border: 1px solid rgb(253, 253, 253, .1);*/
+}
+.marcacao{
+    margin-left: 50px;
+}
+.especie{
+    margin-left: 200px;
+    padding-right: 47px;
+    /*margin-right: 13px;
+    border: 1px solid rgb(253, 253, 253, .1);*/
+}
+.outros{
+    margin-left: 70px;
+}
+.btn1 [type="submit"], [type="reset"]{
+    width: 90px;
+    font-size: 13px;
+    background-color: rgb(103, 136, 136);
+    border-radius: 70px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 0%;
+}
+@media screen and (max-width: 1700px){
+    .numeroDeID{
+        margin-top: 10%;
+        margin-left: 250px;
+        margin-bottom: 25px;
+        
+    }
+    .marcacao{
+        margin-left: 100px;
+    }
+    .especie{
+        margin-left: 250px;
+        padding-right: 47px;
+    }
+    .outros{
+        margin-left: 120px;
+    }
+    .btn1 {
+        margin-left: 100%;
+    }
+}
+@media screen and (max-width: 995px){
+    .numeroDeID{
+        margin-top: 0%;
+        margin-left: 50px;
+        margin-bottom: 0px;
+    }
+    .marcacao{
+        margin-left: 0px;
+    }
+    .especie{
+        margin-left: 100px;
+        padding-right: 0px;
+    }
+    .outros{
+        margin-left: 15px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    .btn1 {
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width: 768px){
+    h1{
+        margin-top: 90px;
+    }
+    .container{
+        background-color: aqua;
+    }
+    .numeroDeID{
+        margin-top: 0%;
+        margin-left: 100px;
+        margin-bottom: 0px;
+    }
+    .marcacao{
+        margin-left: 0px;
+    }
+    .especie{
+        margin-left: 148px;
+        padding-right: 0px;
+    }
+    .outros{
+        margin-left: 20px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    .btn1 {
+        margin-left: 80%;
+    }    
+}
+@media screen and (max-width: 767px){
+    h1{
+        margin-top: 100px;
+    }
+    .numeroDeID{
+        margin-top: 0%;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+    .marcacao{
+        margin-left: 0px;
+    }
+    .especie{
+        margin-left: 58px;
+        padding-right: 0px;
+    }
+    .outros{
+        margin-left: 10px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    .btn1 {
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width: 600px){
+    .numeroDeID{
+        width: 50%;
+        margin-left: 10px;
+        margin-right: -27px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    .marcacao{
+        width: 50%;
+        margin-left: 10px;
+        margin-right: -27px;
+    }
+    .especie{
+        width: 50%;
+        margin-left: 10px;
+        margin-right: -10px;
+    }
+    .outros{
+        width: 50%;
+        margin-left: 10px;
+        margin-right: -10px;
+        padding-left: 0px;
+    }
+    .btn1 {
+        margin-left: 80%;
+    }  
+}
+    @media screen and (max-width: 660px){
+        .numeroDeID{
+            width: 50%;
+            margin-left: 10px;
+            margin-right: -27px;
+            margin-top: 5px;
+            margin-bottom: 8px;
+        }
+        .marcacao{
+            width: 50%;
+            margin-left: 10px;
+            margin-right: -27px;
+        }
+        .especie{
+            width: 50%;
+            margin-left: 10px;
+            margin-right: -10px;
+        }
+        .outros{
+            width: 50%;
+            margin-left: 10px;
+            margin-right: -10px;
+            padding-left: 0px;
+        }
+        .btn1 {
+            margin-left: 80%;
+        }    
+}
+@media screen and (max-width: 550px){
+    .numeroDeID{
+        width: 50%;
+        margin-left: 10px;
+        margin-right: -27px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    .marcacao{
+        width: 50%;
+        margin-left: 10px;
+        margin-right: -27px;
+    }
+    .especie{
+        width: 50%;
+        margin-left: 10px;
+        margin-right: -10px;
+    }
+    .outros{
+        width: 50%;
+        margin-left: 10px;
+        margin-right: -10px;
+        padding-left: 0px;
+    }
+    .btn1 {
+        margin-left: 80%;
+    }    
+}
+@media screen and (max-width: 460px){
+    .especie{
+        margin-right: -15px;
+    }
+    .outros{
+        margin-right: -15px;
+    }
+    .numeroDeID{
+        margin-top: 0%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .marcacao{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 450px){
+    h1{
+        margin-top: 90px;
+    }
+    .numeroDeID, .marcacao, .especie, .outros{
+        width: 100%;
+    }
+    .btn1 {
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width: 425px){
+    h1{
+        margin-top: 80px;
+        font-size: 50px;
+    }
+    .numeroDeID{
+        width: 100%;
+        margin-top: 0%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .marcacao{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .especie{
+        width: 100%;
+        margin-left: 0px;
+        padding-right: 0px;
+    }
+    .outros{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .btn1 [type="submit"], [type="reset"]{
+        width: 90px;
+        font-size: 13px;
+        background-color: rgb(140, 146, 146);
+        border-radius: 70px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-left: -20px;
+    }
+    }
+
+    /*SEGUNDA PARTE*/
+
+.1{
+    width: 50%;
+    height: 150px;
+    margin-bottom: 150px;
+}
+.texto{
+    margin-left: 51%;
+    margin-top: -87%;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1199px){
+    .1{
+        width: 50%;
+        height: 150px;
+        margin-bottom: -20px;
+    }
+    .texto{
+        margin-left: 51%;
+        margin-top: -135px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 998px){
+  
+    .1{
+        width: 40%;
+        height: 150px;
+        margin-bottom: -20px;
+    }
+    .texto{
+        margin-left: 51%;
+        margin-top: -135px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 768px){
+    .1{
+        width: 50%;
+        height: 150px;
+        margin-bottom: -20px;
+    }
+    .texto{
+        margin-left: 71%;
+        margin-top: -135px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 766px){
+    .1{
+        width: 50%;
+        height: 130px;
+        margin-bottom: -20px;
+    }
+    .texto{
+        margin-left: 51%;
+        margin-top: -105px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 566px){
+    .1{
+        width: 60%;
+        height: 190px;
+        margin-bottom: -20px;
+    }
+    .texto{
+        margin-left: 61%;
+        margin-top: -175px;
+        margin-bottom: 45px;
+    }
+}
+@media screen and (max-width: 395px){
+    .1{
+        width: 50%;
+        height: 120px;
+        margin-bottom: -20px;
+    }
+    .texto{
+        margin-left: 55%;
+        margin-top: -105px;
+        margin-bottom: 15px;
+    }
+}
